@@ -1,0 +1,47 @@
+commit 9cb5ca07af9138d61e39875cc2019c8bc313bb58
+Author: Carly Smith <carlysmith@utexas.edu>
+Date:   Thu Oct 8 14:07:22 2020 -0500
+
+    changed status.txt
+
+diff --git a/cs_status.txt b/cs_status.txt
+index e69de29..1e8888b 100644
+--- a/cs_status.txt
++++ b/cs_status.txt
+@@ -0,0 +1,12 @@
++$ git status
++On branch master
++Your branch is up to date with 'origin/master'.
++
++Untracked files:
++  (use "git add <file>..." to include in what will be committed)
++        cs_noadd.txt
++
++nothing added to commit but untracked files present (use "git add" to track)
++
++EXPLANATION:
++The status says I am up to date with the current remote repository, and cs_noadd is not added to the repository.
+\ No newline at end of file
+
+commit 4b02db8e4fd3cabd3e715877860964342e8e3ea2
+Author: Carly Smith <carlysmith@utexas.edu>
+Date:   Thu Oct 8 14:00:59 2020 -0500
+
+    added thoughts and status
+
+diff --git a/cs_status.txt b/cs_status.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/cs_thoughts.txt b/cs_thoughts.txt
+new file mode 100644
+index 0000000..cae69a2
+--- /dev/null
++++ b/cs_thoughts.txt
+@@ -0,0 +1,6 @@
++I have used git quite a bit. 
++My first experience with it was on my high school's robotics team. 
++We used git because our team was rather large and we had to keep the code somewhere that it could be accessed by everyone. 
++I never really liked it in that setting, because I kept losing track of what all the commands were. 
++More recently, I have been working with a team of other students at Texas Inventionworks, the engineering makerspace, to build a web app that manages reservations, tool inventory, etc. It was my first big coding project besided robotics, and it took me a couple of tries to fully grasp the flow and commands of git. I mostly used the built-in git functions in the VSCode IDE, which made things easier for me. 
++After I got the hand of it, I found it very useful. It is nice knowing that if I, or anyone else, messes something up, I am not ruining someone else's work.
+\ No newline at end of file
